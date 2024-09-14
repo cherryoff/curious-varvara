@@ -1,3 +1,18 @@
+[metadata]
+name = "curious-varvara"
+version = "0.1.0"
+author = "Nikolai Vishniakov"
+author_email = "nick@nobazar.ru"
+description = "Tiny package to check availability of a website"
+
+[options]
+packages = find:
+package_dir =
+    = src
+
+[options.packages.find]
+where = src
+
 [build-system]
 requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
