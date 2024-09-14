@@ -1,17 +1,15 @@
-[metadata]
+[project]
 name = "curious-varvara"
-version = "0.1.0"
-author = "Nikolai Vishniakov"
-author_email = "nick@nobazar.ru"
+version = "0.0.1"
+authors = [
+    { name="Nikolai Vishniakov", email="nick@nobazar.ru" },
+]
 description = "Tiny package to check availability of a website"
+readme = "README.md"
+requires-python = ">=3.8"
 
-[options]
-packages = find:
-package_dir =
-    = src
-
-[options.packages.find]
-where = src
+[project.urls]
+homepage = "https://github.com/cherryoff/curious-varvara"
 
 [build-system]
 requires = ["setuptools>=42", "wheel"]
