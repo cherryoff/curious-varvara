@@ -1,0 +1,7 @@
+venv
+*.egg
+*.egg-info
+/dist
+/build
+coverage.xml
+src/urllib3/_version.py
